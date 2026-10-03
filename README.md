@@ -1,6 +1,9 @@
 pip install yfinance pandas numpy
+
 python radar_actions.py              # top 5 du jour pour chaque horizon
+
 python radar_actions.py --backtest   # teste le score sur 2 ans d'historique
+
 python radar_actions.py --tickers AAPL,TSLA,NVDA,AMD,META --top 3
 
 
